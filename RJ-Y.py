@@ -110,7 +110,6 @@ def menu():
     running('\n{}[{}1{}]{} Encrypt\n{}[{}2{}]{} Decrypt\n'.format(m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p))
     asww = raw_input('{}[{}?{}]{} Choose {}>> {}'.format(m,p,m,p,k,p))
     if asww == '1' or asww == '01':
-	load('Running...')
 	menu_enc()
     elif asww == '2' or asww == '02':
 	load('Running...')
