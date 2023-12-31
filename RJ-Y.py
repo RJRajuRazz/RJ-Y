@@ -68,7 +68,6 @@ def run(x):
         while num < 1:
             for i, char in enumerate(x):
                 if i == 0:
-                    print '\r%s%s%s%s' % (rg, char.lower(), rd, x[1:]),
                     sys.stdout.flush()
                 else:
                     if i == 1:
