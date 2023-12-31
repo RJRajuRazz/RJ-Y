@@ -75,7 +75,6 @@ def run(x):
                         sys.stdout.flush()
                     elif i == i:
                         okklah = x[0:i].lower()
-                        print '\r%s%s%s%s%s%s' % (rd, okklah, pt, char.lower(), rg, x[i + 1:]),
                         sys.stdout.flush()
                     time.sleep(0.07)
 
